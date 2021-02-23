@@ -10,7 +10,10 @@ class Home extends Component {
         }
     }
     componentDidMount() {
-        axios.get('http://localhost:3001/food')
+        // Axios url required 
+        // axios.get('http://localhost:3001/food')
+
+        axios.get('https://aaswad-test.herokuapp.com/food')
             .then(response => {
                 console.log(response.data)
                 this.setState({ food: response.data })
