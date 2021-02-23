@@ -12,11 +12,12 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-scripts": "3.4.1",
+    "serve": "^11.3.2",
     "serve-index": "^1.9.1"
   },
   "scripts": {
     "start": "react-scripts start",
-    "heroku-postbuild":"npm install && npm run build",
+    "heroku-postbuild": "npm install && npm run build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
